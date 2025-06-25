@@ -7,6 +7,8 @@
   --background: #f9fafb;
   --square-size: min(90px, 20vw);
 }
+
+/* Main app styles */
 body {
   font-family: system-ui, Arial, sans-serif;
   background: var(--background);
@@ -30,6 +32,62 @@ h1 {
   margin: 1em 0;
 }
 
+/* Board styles */
+.board {
+  touch-action: manipulation;
+}
+
+/* Square styles */
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px solid #ddd;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 1px 6px #e0e7ef66;
+  transition: background 0.22s, outline 0.15s;
+  font-weight: bold;
+  outline: none;
+  user-select: none;
+}
+.square:focus {
+  outline: 3px solid var(--highlight);
+  z-index: 2;
+}
+.square[aria-disabled="true"] {
+  cursor: default;
+  background: #f3f4f6;
+  opacity: 0.72;
+}
+.square.highlight {
+  background: var(--win);
+}
+
+.reset-btn {
+  padding: 0.7em 2.2em;
+  font-size: 1.1em;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1.1em;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: 0 1px 5px #e5e7eb;
+  transition: background 0.18s;
+}
+.reset-btn:hover, .reset-btn:focus {
+  background: var(--highlight);
+  outline: 2px solid var(--highlight);
+}
+
 @media (max-width: 500px) {
   h1 { font-size: 1.6em; }
+  .board {
+    gap: 6px;
+  }
 }
+
