@@ -1,1 +1,24 @@
+TicTacToetestCode0625@ /home/kavia/workspace/code-generation/TicTacToetestCode0625
+├── @axe-core/cli@4.10.2
+├── @babel/core@7.27.4
+├── @emnapi/runtime@1.4.3 extraneous
+├── @testing-library/jest-dom@6.6.3
+├── @testing-library/react@16.3.0
+├── axe-core@4.10.3
+├── css-loader@7.1.2
+├── eslint-plugin-jsx-a11y@6.10.2
+├── eslint@9.29.0
+├── express@4.21.2
+├── jest@30.0.3
+├── next@15.3.4
+├── npm-run-all@4.1.5
+├── prettier@3.6.1
+├── react-dom@19.1.0
+├── react@19.1.0
+├── serve@14.2.4
+├── style-loader@4.0.0
+├── typescript@5.8.3
+├── vite@7.0.0
+├── webpack-cli@6.0.1
+└── webpack@5.99.9
 
