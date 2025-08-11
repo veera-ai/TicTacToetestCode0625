@@ -1,0 +1,25 @@
+{
+  "name": "tictactoewebapplication",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.6.4",
+    "eslint": "^9.33.0",
+    "eslint-config-prettier": "^10.1.8",
+    "jest": "^30.0.5",
+    "jest-environment-jsdom": "^30.0.5",
+    "prettier": "^3.6.2",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "express": "4.21.2"
+  }
+}
